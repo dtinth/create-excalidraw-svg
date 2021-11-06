@@ -1,0 +1,24 @@
+{
+  "name": "create-excalidraw-svg",
+  "version": "0.1.0",
+  "description": "Initializes an Excalidraw SVG file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build -s src/index.js -o dist"
+  },
+  "author": "Thai Pangsakulyanont <dtinth@spacet.me>",
+  "license": "ISC",
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "bin": {
+    "create-excalidraw-svg": "./bin/create-excalidraw-svg"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.31.1",
+    "yargs": "^17.2.1"
+  },
+  "dependencies": {}
+}
