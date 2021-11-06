@@ -1,0 +1,13 @@
+= create-excalidraw-svg
+
+A little tool that helps you easily add editable diagrams to your documentation/README files with https://excalidraw.com/[Excalidraw].
+
+== How to use
+
+. Drag the following SVG image into the directory where you wanted to store your diagram files. You should see an SVG file created:
++
+image::https://github.com/dtinth/create-excalidraw-svg/raw/main/fixtures/default.svg[]
++
+Alternatively, run `npm init excalidraw-svg path/to/diagram.svg` in your Terminal.
+
+. Open https://excalidraw.com/[Excalidraw] and drag the SVG file into the canvas. You can now edit the diagram and press kbd:[Cmd+S] to save it in-place.
